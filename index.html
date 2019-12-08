@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>React</h1></section>
+				<section><h2>What is React?</h2></section>
+				<section><h4>What is React?</h4><h3 style="color: skyblue">"React is a JavaScript Library for building User interfaces"</h3></section>
+				<section><h4>What is React?</h4><h3><h2 style="color:coral">React is a JavaScript Library</h2> for building User interfaces</h3></section>
+				<section><h4>What is React?</h4><h3><h2 style="color:coral">React is a JavaScript Library</h2> for building <h2 style="color:coral">User interfaces</h2></h3></section>
+				<section><h2>Components?</h2></section>
+				<section><h2>Components?</h2><img data-src="images/components.jpg"></section>
+				<section><h2>Components?</h2><img data-src="images/componentsSplit.jpg"></section>
+				<section><h1>JSX</h1></section>
+				<section data-markdown>
+						<textarea data-template>
+							```
+							const Profile = () => {
+								return (
+									<div className="App">
+										<div>
+											<img src='http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg'/>
+										</div>
+										<p>Simple HTML</p>
+								</div>
+								)
+							}
+							```
+						</textarea>
+				</section>
+				<section><h2>Components?</h2><img data-src="images/componentsSplit.jpg"></section>
+				<section><img data-src="images/reactJsCom.jpg"></section>
+				<section><img data-src="images/reactJsOrgHeader.jpg"></section>
+				<section><img data-src="images/reactJsOrgImg.jpg"></section>
+				<section><img data-src="images/reactJsOrgInf.jpg"></section>
+				<section><img data-src="images/reactJsOrgCode.jpg"></section>
+				<section><img data-src="images/reactJsOrgCodeReuse.jpg"></section>
+				<section><img data-src="images/applications.png"></section>
+				<section><img data-src="images/applicationsSingle.png"></section>
+				<section><img data-src="images/applicationsMultiple.png"></section>
+				<section data-markdown>
+					<textarea data-template>
+						## React
+				
+						React documentation [link](https://reactjs.org/).
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
